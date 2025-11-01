@@ -1,0 +1,111 @@
+.home-page {
+  background-color: #000;
+  color: white;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  padding: 20px;
+}
+
+/* Gradient Title */
+.text-gradient {
+  background: linear-gradient(90deg, #ff00cc, #ffcc00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* List Style */
+ul {
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+ul li:hover {
+  color: #ffcc00;
+}
+
+/* Message Text */
+.text-info {
+  color: #00eaff !important;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* Buttons */
+.btn-custom {
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 10px 25px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 25px rgba(255, 204, 0, 0.7);
+}
+
+/* Social Icons */
+.social-icon {
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #ffcc00 !important;
+  transform: scale(1.2);
+}
+
+/* Teddy Image */
+.teddy-img {
+  max-height: 450px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.teddy-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(255, 204, 0, 0.5);
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .text-gradient {
+    font-size: 2rem;
+  }
+
+  .teddy-img {
+    max-height: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  .text-gradient {
+    font-size: 1.8rem;
+  }
+
+  ul li {
+    font-size: 1rem;
+  }
+
+  .text-info {
+    font-size: 1rem;
+  }
+}
+.event-link {
+  color: #ffcc00;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.event-link:hover {
+  color: #ff66cc;
+  text-shadow: 0 0 8px #ff66cc;
+}

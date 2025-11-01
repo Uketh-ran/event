@@ -1,0 +1,14 @@
+.nav-bg {
+  background: rgba(0, 0, 0, 0.9);
+  backdrop-filter: blur(6px);
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #ff00cc, #ffcc00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar-dark .nav-link:hover {
+  color: #ffcc00 !important;
+}

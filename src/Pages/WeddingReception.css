@@ -1,0 +1,38 @@
+.wedding-page {
+  background-color: #000;
+  min-height: 100vh;
+  background-image: radial-gradient(circle at top, #2b0040, #000);
+  padding-bottom: 80px;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #ff00ff, #ffcc00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wedding-img {
+  max-height: 450px;
+  object-fit: cover;
+  border: 3px solid #ffcc00;
+}
+
+.service-card {
+  background-color: #1a1a1a !important;
+  border: 1px solid #333 !important;
+  color: #fff !important;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 20px rgba(255, 204, 0, 0.4);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .wedding-img {
+    max-height: 300px;
+  }
+}

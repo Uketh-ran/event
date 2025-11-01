@@ -1,0 +1,8 @@
+.footer-bg {
+  background: #111;
+  border-top: 1px solid #333;
+}
+
+.footer-bg p {
+  margin: 4px 0;
+}

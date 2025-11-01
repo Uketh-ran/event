@@ -2,9 +2,11 @@ import React from "react";
 import { Container, Button } from "react-bootstrap";
 import { FaHeart } from "react-icons/fa";
 import "../WeddingReception.css";
+import { useNavigate } from "react-router-dom";
 
 
 const ThemeDecoration = () => {
+     const navigate = useNavigate();
   return (
     <div className="wedding-page text-white">
       <Container className="py-5 text-center">
@@ -15,7 +17,7 @@ const ThemeDecoration = () => {
           Our team designs elegant and custom-themed decorations for your reception,  
           including floral walls, lighting setups, and stage arrangements.
         </p>
-        <Button href="/wedding-reception" variant="warning" className="mt-3">⬅ Back to Wedding Page</Button>
+        <Button  onClick={() => navigate("/wedding-reception")} variant="warning" className="mt-3">⬅ Back to Wedding Page</Button>
       </Container>
     </div>
   );

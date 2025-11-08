@@ -4,10 +4,12 @@ import { FaHeart, FaGlassCheers, FaMusic, FaCameraRetro } from "react-icons/fa";
 import "./WeddingReception.css";
 import weddingImage from "./Images/weddingreception.jpg";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 
 
 const WeddingReception = () => {
+    const navigate = useNavigate();
     return (
         <div className="wedding-page text-white">
             <Container className="py-5 text-center">
@@ -41,6 +43,13 @@ const WeddingReception = () => {
                             className="mt-3"
                         >
                             💬 Contact Us on WhatsApp
+                        </Button> <br />
+                        <Button
+                            variant="light"
+                            className="mt-3 fw-semibold text-dark"
+                            onClick={() => navigate("/")}
+                        >
+                            ← Back to Home
                         </Button>
                     </Col>
 

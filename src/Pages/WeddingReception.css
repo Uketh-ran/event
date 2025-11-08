@@ -15,6 +15,10 @@
   max-height: 450px;
   object-fit: cover;
   border: 3px solid #ffcc00;
+  transition: transform 0.3s ease;
+}
+.wedding-img:hover {
+  transform: scale(1.05);
 }
 
 .service-card {

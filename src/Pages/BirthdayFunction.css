@@ -1,0 +1,33 @@
+.birthday-page {
+  background: linear-gradient(135deg, #000000, #1a1a40);
+  min-height: 100vh;
+  padding-top: 80px;
+}
+
+.text-gradient {
+  background: linear-gradient(45deg, #ffcc70, #ff8177, #cf556c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.birthday-img {
+  transition: transform 0.3s ease;
+  max-height: 450px;
+  object-fit: cover;
+  border: 3px solid #ffcc00;
+}
+
+.birthday-img:hover {
+  transform: scale(1.05);
+}
+
+button.btn-warning {
+  font-size: 1rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+button.btn-warning:hover {
+  background-color: #ffb84d;
+  color: #000;
+}

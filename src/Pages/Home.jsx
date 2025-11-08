@@ -31,6 +31,12 @@ const Home = () => {
                         <li>
                             💍 <Link to="/wedding-reception" className="event-link">Wedding Reception</Link>
                         </li>
+                        <li>
+                            🎂 <Link to="/birthday-function" className="event-link"> Birthday Function</Link>
+                        </li>
+                        <li>
+                            💞 <Link to="/anniversary-function" className="event-link"> Anniversary Function</Link>
+                        </li>
                         {/* <ul className="fs-5 list-unstyled mx-auto" style={{ maxWidth: "400px" }}>
               <li>💍 Wedding Reception</li>
               <li>🎂 Birthday Function</li>

@@ -1,0 +1,39 @@
+.anniversary-service-page {
+  background: linear-gradient(135deg, #2c2c54, #40407a);
+  min-height: 100vh;
+}
+
+.service-card {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  backdrop-filter: blur(6px);
+}
+
+.service-card:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-5px);
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #f9ca24, #f0932b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.anniversary-img {
+  border-radius: 20px;
+  max-height: 450px;
+  object-fit: cover;
+}
+.imgs{
+    max-height: 450px;
+  object-fit: cover;
+  border: 3px solid #ffcc00;
+  transition: transform 0.3s ease;
+}
+.imgs:hover {
+  transform: scale(1.05);
+}

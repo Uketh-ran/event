@@ -87,7 +87,6 @@ const BirthdayFunction = () => {
                 <Card.Body>
                   {services.icon}
                   <Card.Title className="fw-bold mt-3">{services.title}</Card.Title>
-                  <Card.Text className="text-light small">{services.desc}</Card.Text>
                 </Card.Body>
               </Card>
             </Col>

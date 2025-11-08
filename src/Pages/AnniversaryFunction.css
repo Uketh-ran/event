@@ -1,5 +1,5 @@
 .anniversary-page {
-  background: linear-gradient(135deg, #000000, #3a1c1c);
+  background-image: radial-gradient(circle at top, #2b0040, #000);
   min-height: 100vh;
   padding-top: 80px;
 }
@@ -55,12 +55,14 @@ button.btn-light:hover {
     margin-bottom: 20px;
   }
 }
-.imgs{
-    max-height: 450px;
+
+.imgs {
+  max-height: 450px;
   object-fit: cover;
   border: 3px solid #ffcc00;
   transition: transform 0.3s ease;
 }
+
 .imgs:hover {
   transform: scale(1.05);
 }

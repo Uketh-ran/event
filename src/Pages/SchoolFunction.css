@@ -1,0 +1,47 @@
+.school-page,
+.school-service-page {
+  background-image: radial-gradient(circle at top, #2b0040, #000);
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #ffb347, #ffcc33);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.service-card {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 15px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.service-card:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-5px);
+}
+
+.school-img {
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .school-img {
+    max-height: 300px;
+    margin-top: 20px;
+  }
+}
+.imgs{
+    max-height: 450px;
+  object-fit: cover;
+  border: 3px solid #ffcc00;
+  transition: transform 0.3s ease;
+}
+.imgs:hover {
+  transform: scale(1.05);
+}

@@ -1,5 +1,5 @@
 .home-page {
-  background-color: #000;
+  background-image: radial-gradient(circle at top, #2b0040, #000);
   color: white;
   min-height: 100vh;
   font-family: "Poppins", sans-serif;

@@ -60,7 +60,6 @@ const AnniversaryFunction = () => {
                                 <Card.Body>
                                     {service.icon}
                                     <Card.Title className="fw-bold mt-3">{service.title}</Card.Title>
-                                    <Card.Text className="text-muted small">{service.desc}</Card.Text>
                                 </Card.Body>
                             </Card>
                         </Col>

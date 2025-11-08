@@ -37,13 +37,16 @@ const Home = () => {
                         <li>
                             💞 <Link to="/anniversary-function" className="event-link"> Anniversary Function</Link>
                         </li>
+                        <li>
+                            🏫  <Link to="/school-function" className="event-link"> School Function</Link>
+                        </li>
+                        <li>
+                            🎓 <Link to="/college-function" className="event-link"> College Function</Link>
+                        </li>
+                        <li>
+                            🏢 <Link to="/corporate-function" className="event-link"> Corporate Event Function</Link>
+                        </li>
                         {/* <ul className="fs-5 list-unstyled mx-auto" style={{ maxWidth: "400px" }}>
-              <li>💍 Wedding Reception</li>
-              <li>🎂 Birthday Function</li>
-              <li>💞 Anniversary Function</li>
-              <li>🏫 School Function</li>
-              <li>🎓 College Function</li>
-              <li>🏢 Corporate Event Function</li>
               <li>🏪 New Store Opening Ceremony</li>
               <li>🎉 Political Party Events</li>
             </ul> */}

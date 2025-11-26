@@ -33,6 +33,16 @@ import TeamBulding from './Pages/CorporateFunction/TeamBulding';
 import ProductLaunch from './Pages/CorporateFunction/ProductLaunch';
 import Corporatemeet from './Pages/CorporateFunction/Corporatemeet';
 import Annualdaycelebration from './Pages/CorporateFunction/Annualdaycelebration';
+import NewStore from './Pages/NewStore';
+import Ribbon from './Pages/NewStore/Ribbon';
+import Stage from './Pages/NewStore/Stage';
+import NSPhoto from './Pages/NewStore/NSPhoto';
+import WelcomeBanner from './Pages/NewStore/WelcomeBanner';
+import Snacks from './Pages/NewStore/Snacks';
+import PoliticalEvents from './Pages/PoliticalEvents';
+import ElectionCampains from './Pages/PoliticalServices/ElectionCampaigns';
+import Publicmeetings from './Pages/PoliticalServices/Publicmeetings';
+import Pressmeet from './Pages/PoliticalServices/Pressmeet';
 
 
 
@@ -81,6 +91,18 @@ function App() {
             <Route path="/product-launch" element={<ProductLaunch/>} />
             <Route path="/corporate-meet" element={<Corporatemeet/>} />
             <Route path="/corporate-annual" element={<Annualdaycelebration/>} />
+
+            <Route path="/newstore-function" element={<NewStore/>} />
+            <Route path="/ribbon-cutting" element={<Ribbon/>} />
+            <Route path="/stage-audio" element={<Stage/>} />
+            <Route path="/store-photo-video" element={<NSPhoto/>} />
+            <Route path="/store-decoration" element={<WelcomeBanner/>} />
+            <Route path="/refreshment-catering" element={<Snacks/>} />
+            
+            <Route path="/politicalparty-function" element={<PoliticalEvents/>} />
+            <Route path="/election-campaign" element={<ElectionCampains/>} />
+            <Route path="/public-rallies" element={<Publicmeetings/>} />
+            <Route path="/press-meet" element={<Pressmeet/>} />
 
           </Routes>
           <Footer />

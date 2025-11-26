@@ -41,10 +41,17 @@ const CorporateEvent = () => {
               💼 Corporate Events
             </h1>
             <p className="fs-5 animate__animated animate__fadeInLeft">
-              We organize professional and memorable <strong>Corporate Events</strong> 
-              that build relationships, enhance brand identity, and celebrate success. 
+              We organize professional and memorable <strong>Corporate Events</strong>
+              that build relationships, enhance brand identity, and celebrate success.
               From small conferences to large annual meets — we make it impactful!
             </p>
+            <Button
+              variant="success"
+              href="https://wa.me/9344146346"
+              className="mt-3"
+            >
+              💬 Contact Us on WhatsApp
+            </Button> <br />
 
             <Button
               variant="light"

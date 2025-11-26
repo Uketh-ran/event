@@ -3,7 +3,6 @@
   min-height: 100vh;
   padding-top: 80px;
 }
-
 .text-gradient {
   background: linear-gradient(45deg, #ffcc70, #ff8177, #cf556c);
   -webkit-background-clip: text;

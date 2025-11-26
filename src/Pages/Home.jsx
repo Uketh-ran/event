@@ -28,32 +28,27 @@ const Home = () => {
                         md={6}
                         className="text-start text-md-start text-center animate__animated animate__fadeInLeft"
                     >
-                        <li>
-                            💍 <Link to="/wedding-reception" className="event-link">Wedding Reception</Link>
-                        </li>
-                        <li>
-                            🎂 <Link to="/birthday-function" className="event-link"> Birthday Function</Link>
-                        </li>
-                        <li>
-                            💞 <Link to="/anniversary-function" className="event-link"> Anniversary Function</Link>
-                        </li>
-                        <li>
-                            🏫  <Link to="/school-function" className="event-link"> School Function</Link>
-                        </li>
-                        <li>
-                            🎓 <Link to="/college-function" className="event-link"> College Function</Link>
-                        </li>
-                        <li>
-                            🏢 <Link to="/corporate-function" className="event-link"> Corporate Event Function</Link>
-                        </li>
-                        {/* <ul className="fs-5 list-unstyled mx-auto" style={{ maxWidth: "400px" }}>
-              <li>🏪 New Store Opening Ceremony</li>
-              <li>🎉 Political Party Events</li>
-            </ul> */}
+                        
+                            💍 <Link to="/wedding-reception" className="event-link fs-5">Wedding Reception</Link> <br />
+                        
+                            🎂 <Link to="/birthday-function" className="event-link fs-5"> Birthday Function</Link> <br />
+                        
+                            💞 <Link to="/anniversary-function" className="event-link fs-5"> Anniversary Function</Link> <br />
+                       
+                            🏫  <Link to="/school-function" className="event-link fs-5"> School Function</Link> <br />
+                        
+                            🎓 <Link to="/college-function" className="event-link fs-5"> College Function</Link> <br />
+                        
+                            🏢 <Link to="/corporate-function" className="event-link fs-5"> Corporate Event Function</Link> <br />
+                        
+                            🏪 <Link to="/newstore-function" className="event-link fs-5">New Store Opening Ceremony</Link> <br />
+                        
+                            🎉 <Link to="/politicalparty-function" className="event-link fs-5">Political Party Events</Link> <br />
+                       
 
                         <p className="mt-4 text-info fw-bold animate__animated animate__fadeInUp">
-                            All Function Events can Create a <br />
-                            <span className="text-primary">Memorable & Unique Celebration!</span>
+                            All Function Events can Create a 
+                            <span className="text-primary"> Memorable & Unique Celebration!</span>
                         </p>
 
                         {/* Buttons */}

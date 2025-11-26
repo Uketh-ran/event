@@ -41,11 +41,17 @@ const CollegeFunction = () => {
               🎓 College Events
             </h1>
             <p className="fs-5 animate__animated animate__fadeInLeft">
-              From <strong>Freshers’ Day</strong> to <strong>Farewell Functions</strong>, 
-              we bring your campus events to life with creative themes, 
+              From <strong>Freshers’ Day</strong> to <strong>Farewell Functions</strong>,
+              we bring your campus events to life with creative themes,
               professional coordination, and unforgettable memories!
             </p>
-
+            <Button
+              variant="success"
+              href="https://wa.me/9344146346"
+              className="mt-3"
+            >
+              💬 Contact Us on WhatsApp
+            </Button> <br />
             <Button
               variant="light"
               className="mt-3 fw-semibold text-dark"

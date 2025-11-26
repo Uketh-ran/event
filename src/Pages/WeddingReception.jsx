@@ -14,7 +14,7 @@ const WeddingReception = () => {
         <div className="wedding-page text-white">
             <Container className="py-5 text-center">
                 {/* Title */}
-                <h1 className="fw-bold display-4 text-gradient mb-3 animate__animated animate__fadeInDown">
+                <h1 className="fw-bold display-5 text-gradient mb-3 animate__animated animate__fadeInDown">
                     💍 Wedding Reception 💍
                 </h1>
                 <p className="text-warning fs-5 fw-semibold animate__animated animate__fadeInUp">

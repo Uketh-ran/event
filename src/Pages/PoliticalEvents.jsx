@@ -1,11 +1,30 @@
 import React from "react";
+import { useState } from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import { FaBullhorn, FaUsers, FaVideo } from "react-icons/fa";
 import corporateImg from "./Images/corporateevent.jpg"; // add this image in src/Pages/Images
+import weddingImage from "./Images/weddingreception.jpg";
 import "./CorporateEvent.css";
 
 const PoliticalEvents = () => {
+
+    const images = [corporateImg,weddingImage]
+
+    const [currentIndex, setCurrentIndex] = useState(0);
+
+  const nextImg = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === images.length - 1 ? 0 : prevIndex + 1
+    );
+  };
+
+  const prevImg = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1
+    );
+  };
+
     const navigate = useNavigate();
 
     const services = [
@@ -28,14 +47,16 @@ const PoliticalEvents = () => {
 
     return (
         <div className="corporate-page text-white">
-            <Container className="py-5">
-                {/* Header Section */}
-                <Row className="align-items-center mb-5">
-                    <Col md={6} className="text-center text-md-start mb-4 mb-md-0">
-                        <h1 className="fw-bold display-5 text-gradient mb-3 animate__animated animate__fadeInDown">
-                            🎉 Political Party Events
-                        </h1>
-                        <p className="fs-5 animate__animated animate__fadeInLeft">
+            <Container className="py-5 text-center">
+                <h1 className="fw-bold display-5 text-gradient mb-3 animate__animated animate__fadeInDown ">
+                    🎉 Political Party Events 🎉
+                </h1>
+                <p className="text-warning fs-5 fw-semibold animate__animated animate__fadeInUp">
+                    Make your special day even more magical ✨
+                </p>
+                <Row className="mt-5">
+                    <Col md={6} className="text-start mt-4 mt-md-0">
+                        <p className="fs-5">
                             We manage political gatherings with proper planning, stage setup,
                             sound & lighting arrangements, media handling and crowd management
                             professionally for powerful public reach.
@@ -60,16 +81,27 @@ const PoliticalEvents = () => {
 
                     {/* Right Image */}
                     <Col md={6} className="text-center animate__animated animate__fadeInRight">
-                        <img
+                        {/* <img
                             src={corporateImg}
                             alt="Corporate Event"
                             className="img-fluid rounded shadow-lg corporate-img imgs"
-                        />
+                        /> */}
+                        <div className="image-wrapper position-relative">
+                            <img
+                                src={images[currentIndex]}
+                                alt="Corporate Event"
+                                className="img-fluid rounded shadow-lg corporate-img imgs"
+                            />
+
+                            <button className="nav-btn prev-btn" onClick={prevImg}>Prev</button>
+                            <button className="nav-btn next-btn" onClick={nextImg}>Next</button>
+                        </div>
+
                     </Col>
                 </Row>
 
                 {/* Services Section */}
-                <h2 className="text-center fw-bold mb-4 text-gradient animate__animated animate__fadeInUp">
+                <h2 className="text-center fw-bold mb-4 mt-4 text-gradient animate__animated animate__fadeInUp">
                     Political Party Services 🎉
                 </h2>
                 <Row className="g-4">

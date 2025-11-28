@@ -16,17 +16,18 @@ const AnniversaryFunction = () => {
     ];
 
     return (
-        <div className="anniversary-page text-white">
-            <Container className="py-5">
-                {/* Header */}
-                <Row className="align-items-center mb-5">
-                    <Col md={6} className="text-center text-md-start mb-4 mb-md-0">
-                        <h1 className="fw-bold display-5 text-gradient mb-3 animate__animated animate__fadeInDown">
-                            💞 Anniversary Function
-                        </h1>
-                        <p className="fs-5 animate__animated animate__fadeInLeft">
+        <div className="anniversary-page pt-0 text-white">
+            <Container className="py-5 text-center">
+                <h1 className="fw-bold display-5 text-gradient mb-3 animate__animated animate__fadeInDown ">
+                    💞 Anniversary Function 💞
+                </h1>
+                <p className="text-warning fs-5 fw-semibold animate__animated animate__fadeInUp">
+                    Make your special day even more magical ✨
+                </p>
+                <Row className="mt-5">
+                    <Col md={6} className="text-start mt-4 mt-md-0">
+                        <p className="fs-5 ">
                             Celebrate your love and togetherness with an elegant and romantic setup crafted just for you.
-                            <br />
                             From decorations to entertainment, we make your anniversary truly unforgettable! 💖
                         </p>
                         <Button
@@ -55,7 +56,7 @@ const AnniversaryFunction = () => {
                 </Row>
 
                 {/* Service Cards */}
-                <h2 className="text-center fw-bold mb-4 text-gradient animate__animated animate__fadeInUp">
+                <h2 className="text-center fw-bold mb-4 mt-4 text-gradient animate__animated animate__fadeInUp">
                     Our Anniversary Services 💐
                 </h2>
 

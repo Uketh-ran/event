@@ -36,3 +36,39 @@
 .imgs:hover {
   transform: scale(1.05);
 }
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px 18px;
+  border: none;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 50px;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.4s ease;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+.image-wrapper:hover .nav-btn {
+  opacity: 1;
+}
+
+.nav-btn:hover {
+  transform: translateY(-50%) scale(1.1);
+}

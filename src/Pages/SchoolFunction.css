@@ -24,11 +24,11 @@
   transform: translateY(-5px);
 }
 
-.school-img {
+/* .school-img {
   max-height: 400px;
   object-fit: cover;
   border-radius: 20px;
-}
+} */
 
 @media (max-width: 768px) {
   .school-img {
@@ -37,7 +37,7 @@
   }
 }
 .imgs{
-    max-height: 450px;
+    max-height: 450px ;
   object-fit: cover;
   border: 3px solid #ffcc00;
   transition: transform 0.3s ease;

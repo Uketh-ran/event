@@ -63,7 +63,10 @@ const WeddingReception = () => {
                 </Row>
 
                 {/* Service Cards */}
-                <Row className="mt-5 g-4">
+                <Row className="mt-4 g-4">
+                    <h2 className="text-center fw-bold mb-4 mt-4 text-gradient animate__animated animate__fadeInUp">
+                        Our Wedding Services 💐
+                    </h2>
                     <Col md={3} sm={6}>
                         <Link to="/theme-decoration" className="text-decoration-none">
                             <Card className="service-card">

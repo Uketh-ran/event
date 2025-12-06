@@ -1,7 +1,7 @@
 
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import { FaCameraRetro, FaMusic, FaBirthdayCake, FaGift } from "react-icons/fa";
+import { FaCameraRetro, FaMusic, FaBirthdayCake} from "react-icons/fa";
 import { IoBalloonOutline } from "react-icons/io5";
 import birthdayImg from "./Images/birthday.jpg"; // make sure image exists in src/Pages/Images
 import "./BirthdayFunction.css";
@@ -30,12 +30,7 @@ const BirthdayFunction = () => {
       icon: <FaBirthdayCake className="fs-1 text-pink" />,
       title: "Cake & Catering",
       path: "/birthday-catering"
-    },
-    {
-      icon: <FaGift className="fs-1 text-success" />,
-      title: "Return Gift Setup",
-      path: "/birthday-gifts"
-    },
+    }
   ];
 
   return (

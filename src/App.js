@@ -19,7 +19,6 @@ import BdThemeDecoration from './Pages/BirthdayServices/BdThemeDecoration';
 import BdPhotoVideo from './Pages/BirthdayServices/BdPhotoVideo';
 import BdLiveMusic from './Pages/BirthdayServices/BdLiveMusic';
 import BdCakeCatering from './Pages/BirthdayServices/BdCakeCatering';
-import BdReturnGifts from './Pages/BirthdayServices/BdReturnGifts';
 import SchoolFunction from './Pages/SchoolFunction';
 import AnnualDay from './Pages/SchoolFunction/AnnualDay';
 import SportsDay from './Pages/SchoolFunction/SportsDay';
@@ -67,7 +66,6 @@ function App() {
             <Route path="/birthday-photo-video" element={<BdPhotoVideo />} />
             <Route path="/birthday-live-music" element={<BdLiveMusic />} />
             <Route path="/birthday-catering" element={<BdCakeCatering />} />
-            <Route path="/birthday-gifts" element={<BdReturnGifts />} />
 
             <Route path="/anniversary-function" element={<AnniversaryFunction />} />
             <Route path="/anniversary-theme" element={<RomanticThemeDecoration />} />

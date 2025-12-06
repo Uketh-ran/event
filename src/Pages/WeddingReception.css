@@ -40,3 +40,27 @@
     max-height: 300px;
   }
 }
+
+.carousel-item img {
+  max-height: 500px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #ffffff00;  
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  background-size: 60%;
+}
+
+.carousel-control-prev-icon {
+  filter: invert(0); /* Adjust arrow icon color */
+}
+
+.carousel-control-next-icon {
+  filter: invert(0);
+}
+

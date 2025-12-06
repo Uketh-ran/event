@@ -1,29 +1,12 @@
 import React from "react";
-import { useState } from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import { FaBullhorn, FaUsers, FaVideo } from "react-icons/fa";
 import corporateImg from "./Images/corporateevent.jpg"; // add this image in src/Pages/Images
-import weddingImage from "./Images/weddingreception.jpg";
+
 import "./CorporateEvent.css";
 
 const PoliticalEvents = () => {
-
-    const images = [corporateImg,weddingImage]
-
-    const [currentIndex, setCurrentIndex] = useState(0);
-
-  const nextImg = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === images.length - 1 ? 0 : prevIndex + 1
-    );
-  };
-
-  const prevImg = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? images.length - 1 : prevIndex - 1
-    );
-  };
 
     const navigate = useNavigate();
 
@@ -81,21 +64,11 @@ const PoliticalEvents = () => {
 
                     {/* Right Image */}
                     <Col md={6} className="text-center animate__animated animate__fadeInRight">
-                        {/* <img
+                        <img
                             src={corporateImg}
                             alt="Corporate Event"
                             className="img-fluid rounded shadow-lg corporate-img imgs"
-                        /> */}
-                        <div className="image-wrapper position-relative">
-                            <img
-                                src={images[currentIndex]}
-                                alt="Corporate Event"
-                                className="img-fluid rounded shadow-lg corporate-img imgs"
-                            />
-
-                            <button className="nav-btn prev-btn" onClick={prevImg}>Prev</button>
-                            <button className="nav-btn next-btn" onClick={nextImg}>Next</button>
-                        </div>
+                        />
 
                     </Col>
                 </Row>
